@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanweer Iqbal | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="logo"><span>T</span>anweer</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-tag">
+          <span class="hero-tag-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">Hi, I'm <span class="accent">Tanweer</span><br>Iqbal.</h1>
+        <p class="hero-subtitle">Computer Science student at VIT Bhopal (all credits completed). I build full-stack web
+          apps and AI-powered solutions for real-world problems.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">4+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div>
+            <div class="stat-num">150+</div>
+            <div class="stat-label">DSA Solved</div>
+          </div>
+          <div>
+            <div class="stat-num">8.40</div>
+            <div class="stat-label">CGPA</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-bg"></div>
+          <div class="avatar-image">
+            <img src="1.jpg" alt="Tanveer Iqbal">
+          </div>
+          <div class="hero-card-info">
+            <div class="hero-card-name">Tanweer Iqbal</div>
+            <div class="hero-card-role">Full Stack Developer</div>
+          </div>
+        </div>
+        <div class="float-badge float-badge-1"><span style="color:#4ade80">● </span>Open to Work</div>
+        <div class="float-badge float-badge-2">⚡ React.js</div>
+        <div class="float-badge float-badge-3">🤖 AI + Python</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-wrap">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-box">
+            <div class="about-img-inner">
+              <div class="about-visual">
+                <img src="4H5A4566.JPG" alt="Tanweer Iqbal">
+              </div>
+            </div>
+          </div>
+          <div class="about-chip">CGPA<br>8.40 / 10</div>
+        </div>
+        <div class="reveal">
+          <div class="section-header">
+            <div class="section-eyebrow">Get to know me</div>
+            <h2 class="section-title">About Me</h2>
+          </div>
+          <p class="about-bio">I'm a Computer Science student at VIT Bhopal who has completed all academic requirements,
+            including the final year project. I'm passionate about building meaningful digital products, from full-stack
+            web applications to AI-powered tools. I enjoy solving complex problems and turning them into simple,
+            user-friendly solutions. I have earned AWS certifications, solved 150+ DSA problems, and actively
+            contributed to the Web Development Freelancing Club at my college.</p>
+          <div class="tabs-row">
+            <button class="tab-btn active" data-tab="t-skills">Skills</button>
+            <button class="tab-btn" data-tab="t-exp">Experience</button>
+            <button class="tab-btn" data-tab="t-edu">Education</button>
+          </div>
+          <div id="t-skills" class="tab-panel active">
+            <div class="skill-item">
+              <div class="skill-row"><span>JavaScript / Node.js</span><span class="skill-pct">85%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-w="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span>React.js</span><span class="skill-pct">75%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-w="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span>Python / AI / LLM</span><span class="skill-pct">80%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-w="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span>MongoDB / SQL</span><span class="skill-pct">78%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-w="78"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span>HTML / CSS</span><span class="skill-pct">92%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-w="92"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-row"><span>C++</span><span class="skill-pct">80%</span></div>
+              <div class="skill-track">
+                <div class="skill-fill" data-w="75"></div>
+              </div>
+            </div>
+          </div>
+          <div id="t-exp" class="tab-panel">
+            <div class="timeline-item">
+              <div class="tl-dot"></div>
+              <div>
+                <div class="tl-role">Web Developer</div>
+                <div class="tl-org">Freelancing Club, VIT Bhopal</div>
+                <div class="tl-period">2023 - Present</div>
+                <div class="tl-desc">Engineered and deployed responsive websites. Improved club member visibility by 40%
+                  through optimised UI and SEO.</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="tl-dot"></div>
+              <div>
+                <div class="tl-role">Freelance Full Stack Developer</div>
+                <div class="tl-org">Self-employed</div>
+                <div class="tl-period">2023 - Present</div>
+                <div class="tl-desc">Built full-stack applications with JWT auth, REST APIs, CMS integration, and
+                  payment gateway APIs for real-world clients.</div>
+              </div>
+            </div>
+
+          </div>
+          <div id="t-edu" class="tab-panel">
+            <div class="timeline-item">
+              <div class="tl-dot"></div>
+              <div>
+                <div class="tl-role">B-Tech Computer Science And Engineering</div>
+                <div class="tl-org">Vellore Institute of Technology, Bhopal</div>
+                <div class="tl-period">Oct 2022 – July 2026</div>
+                <div class="tl-desc">CGPA: 8.40 / 10. Core focus on software engineering, data structures, algorithms,
+                  and full-stack development.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-wrap">
+      <div class="section-header reveal" style="text-align:center">
+        <div class="section-eyebrow">What I've built</div>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <span class="project-icon">🌦️</span>
+          <div class="project-title">Weather Prediction App</div>
+          <div class="project-desc">Responsive weather web app fetching real-time data from OpenWeatherMap API — shows
+            temperature, humidity, wind speed, and conditions for any city.</div>
+          <div class="project-tags"><span class="tag">JavaScript</span><span class="tag">HTML5</span><span
+              class="tag">CSS3</span><span class="tag">OpenWeatherMap API</span></div>
+          <div class="project-links">
+            <a href="https://weather-prediction-project1.vercel.app/" target="_blank" class="p-link live">🚀 Live
+              Demo</a>
+            <a href="https://github.com/Tanweer786-stark" target="_blank" class="p-link">⬡ GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-icon">📰</span>
+          <div class="project-title">News Website</div>
+          <div class="project-desc">Full-stack news platform with category filtering, JWT auth, CMS integration, RESTful
+            APIs, and SEO — a complete editorial web application.</div>
+          <div class="project-tags"><span class="tag">JavaScript</span><span class="tag">Node.js</span><span
+              class="tag">MongoDB</span><span class="tag">JWT</span><span class="tag">REST API</span></div>
+          <div class="project-links">
+            <a href="https://college-project-group-42.vercel.app/" target="_blank" class="p-link live">🚀 Live Demo</a>
+            <a href="https://github.com/Tanweer786-stark" target="_blank" class="p-link">⬡ GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-icon">🍕</span>
+          <div class="project-title">Food Delivery Platform</div>
+          <div class="project-desc">Scalable food ordering platform with 30+ menu items, real-time order tracking,
+            secure JWT sessions, and encrypted payment gateway integration.</div>
+          <div class="project-tags"><span class="tag">JavaScript</span><span class="tag">Node.js</span><span
+              class="tag">MongoDB</span><span class="tag">HTML/CSS</span><span class="tag">Payments</span></div>
+          <div class="project-links">
+            <a href="https://github.com/Tanweer786-stark" target="_blank" class="p-link">⬡ GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-icon">🤖</span>
+          <div class="project-title">AI Financial Assistant</div>
+          <div class="project-desc">Smart personal finance manager with expense tracking, budgeting, EMI planning, and
+            AI-powered LLM insights — final year capstone project.</div>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span
+              class="tag">SQLite</span><span class="tag">LLM / AI</span><span class="tag">pandas</span></div>
+          <div class="project-links">
+            <a href="https://capstonefinalyearproject-rn8lronvwnnckcczgajuwk.streamlit.app/" target="_blank"
+              class="p-link live">🚀 Live Demo</a>
+            <a href="https://github.com/Tanweer786-stark" target="_blank" class="p-link">⬡ GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-wrap" style="text-align:center">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Tech Stack</div>
+        <h2 class="section-title">Skills &amp; Tools</h2>
+      </div>
+      <div class="skills-cloud reveal">
+        <div class="skill-pill">🔷 C++</div>
+        <div class="skill-pill">🟨 JavaScript</div>
+        <div class="skill-pill">🐍 Python</div>
+        <div class="skill-pill">⚛️ React.js</div>
+        <div class="skill-pill">🟢 Node.js</div>
+        <div class="skill-pill">🍃 MongoDB</div>
+        <div class="skill-pill">🗃️ SQL / SQLite</div>
+        <div class="skill-pill">🌐 HTML / CSS</div>
+        <div class="skill-pill">🐙 Git / GitHub</div>
+        <div class="skill-pill">☁️ AWS Cloud</div>
+        <div class="skill-pill">🔥 REST APIs</div>
+        <div class="skill-pill">📊 pandas / NumPy</div>
+        <div class="skill-pill">🚀 Streamlit</div>
+        <div class="skill-pill">🔒 JWT Auth</div>
+        <div class="skill-pill">🤖 LLM / AI</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" style="padding:7rem 6%">
+    <div class="section-wrap">
+      <div class="section-header reveal" style="text-align:center">
+        <div class="section-eyebrow">Recognition</div>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+      <div class="ach-grid">
+        <div class="ach-card reveal">
+          <div class="ach-icon">☁️</div>
+          <div>
+            <div class="ach-title">AWS Cloud Foundations</div>
+            <div class="ach-desc">AWS Academy Certified — 2025. Validates core cloud computing knowledge and services.
+            </div>
+          </div>
+        </div>
+        <div class="ach-card reveal">
+          <div class="ach-icon">🏗️</div>
+          <div>
+            <div class="ach-title">AWS Cloud Architecting</div>
+            <div class="ach-desc">Certified in designing scalable, cost-effective cloud infrastructure solutions on AWS.
+            </div>
+          </div>
+        </div>
+        <div class="ach-card reveal">
+          <div class="ach-icon">⚡</div>
+          <div>
+            <div class="ach-title">150+ DSA Problems</div>
+            <div class="ach-desc">Solved across LeetCode, GeeksForGeeks, and Coding Ninjas — strong algorithmic
+              foundation.</div>
+          </div>
+        </div>
+        <div class="ach-card reveal">
+          <div class="ach-icon">🏐</div>
+          <div>
+            <div class="ach-title">University Kabaddi</div>
+            <div class="ach-desc">Represented VIT Bhopal in university-level tournaments — leadership and teamwork under
+              pressure.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-wrap">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Let's work together</div>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <p class="contact-tagline reveal">Actively looking for internship and full-time opportunities. Whether you have a
+        project in mind or just want to say hello — I'd love to hear from you.</p>
+      <div class="contact-grid reveal">
+        <a href="mailto:tanweer.ibnhaider@gmail.com" class="contact-card">
+          <div class="contact-card-icon">📧</div>
+          <div class="contact-card-label">Email</div>
+          <div class="contact-card-val">tanweer.ibnhaider@gmail.com</div>
+        </a>
+        <a href="https://linkedin.com/in/tanweer-iqbal-9a1939251" target="_blank" class="contact-card">
+          <div class="contact-card-icon">💼</div>
+          <div class="contact-card-label">LinkedIn</div>
+          <div class="contact-card-val">tanweer-iqbal</div>
+        </a>
+        <a href="https://github.com/Tanweer786-stark" target="_blank" class="contact-card">
+          <div class="contact-card-icon">🐙</div>
+          <div class="contact-card-label">GitHub</div>
+          <div class="contact-card-val">Tanweer786-stark</div>
+        </a>
+      </div>
+      <a href="tel:7004508853" class="btn-primary reveal" style="display:inline-block">📞 Call: 7004508853</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 <span>Tanweer Iqbal</span> · Crafted with passion &amp; precision.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
